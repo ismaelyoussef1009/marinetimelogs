@@ -1,0 +1,16 @@
+$font_family:'Montserrat', sans-serif;
+$purple_color:#1a2b57;
+$header_background:#316795;
+$brown_color:#f6c08c;
+$orange_color:#ffc740;
+$ash_color:#7d8489;
+
+@mixin container($width, $margin_left){
+   width: $width;
+   margin-left: $margin_left; 
+}
+@mixin displayElementFlex($align) {
+    display: flex;
+    justify-content: space-between;
+    align-items: $align;
+}
